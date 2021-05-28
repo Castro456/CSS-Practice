@@ -1,0 +1,20 @@
+ #para{
+  background-color: chartreuse;
+  color: red;
+} 
+#prac{
+  font-family: "verdana";
+}
+.spanning{
+  text-transform: uppercase;
+}
+#l1 ol li{
+  color: red;
+}
+h1 + h2{
+  color: blueviolet;
+  background-color: black;
+}
+p[class]{
+  background: burlywood;
+}

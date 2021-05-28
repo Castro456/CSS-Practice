@@ -1,0 +1,20 @@
+#lorem{
+  background-color: aquamarine;
+  border: 3px solid red;
+  padding: 30px 1px 30px 1px ;
+  margin: 30px 20px;
+}
+#smallcaps{
+  font-variant: small-caps;
+}
+#fweight{
+  font-weight:bolder;
+}
+#fsize{
+  font-size: 30pt;
+   /* xx-large
+   150% 100 means default*/
+}
+#flineheight{
+  line-height: 50pt;
+}
