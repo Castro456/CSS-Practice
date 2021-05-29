@@ -1,0 +1,5 @@
+body{
+  background-image: linear-gradient(to right, #e1f47a, #aaf494, #74f0b4, #42e7d2, #2adce8);
+  /* also radial gradient is available */
+  /* background-repeat: repeat-x; */
+}
