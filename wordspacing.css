@@ -1,0 +1,30 @@
+#para:after{
+  word-spacing: 50px;
+  letter-spacing: 5px;
+  content:" Can add in css";
+}
+footer{
+  clear: both;
+  background-color: seagreen;
+  color: aliceblue;
+}
+ul{
+  /* list-style-: none; */
+  list-style-type: lower-roman;
+  list-style-position: outside;
+}
+ol{
+  background-color: black;
+  color: azure;
+}
+li:nth-child(2n){
+  color: chartreuse;
+}
+#para2:first-letter{
+  font-size: 100px;
+  text-transform: uppercase;
+}
+p:hover{
+  color: blue;
+  cursor: pointer;
+}
