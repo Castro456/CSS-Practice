@@ -1,0 +1,19 @@
+div{
+  background: royalblue;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  animation: anime;
+  animation-duration: 2s;
+  animation-iteration-count: 2;
+}
+@keyframes anime {
+  0%{background-color: royalblue;left: 0px; top: 0px;}
+  25%{background-color: rebeccapurple;left: 300px; top: 0px;}
+  50%{background-color: purple;left: 0px; top: 300px;}
+  75%{background-color: rgb(230, 241, 64);left: 300px; top: 300px;}
+  100%{background-color: rgb(107, 238, 157);left: 0px; top: 0px;}
+}
+div:hover{
+  transform:rotate(45deg);
+}
