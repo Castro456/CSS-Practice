@@ -1,0 +1,32 @@
+a:hover{
+  background-color: darkorange;
+  color: darkblue;
+}
+body{
+  background-color: darkgray;
+}
+#wrap{
+  margin: 00px auto;
+  width: 600px;
+  height: 450px;
+  /* border: 2px dotted seagreen; */
+  padding: 20px 10px 20px 10px;
+}
+nav{
+  display: block;
+  margin: 0px auto;
+  width: 1400;
+  background-color: blanchedalmond;
+  padding: 5px 0px 5px 1200px;
+}
+header{
+  color: red;
+  padding: 50px auto;
+  width: 150px;
+  margin: auto;
+}
+footer{
+  color: red;
+  width: 150px;
+  margin: auto;
+}
