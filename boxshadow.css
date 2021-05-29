@@ -1,0 +1,14 @@
+#para{
+  background-color: cornsilk;
+  margin: 100px auto;
+  width: 300px;
+  box-shadow: 0 0 50px rgba(231, 94, 94, 0.5);
+  text-decoration: overline;
+}
+#left{
+  direction: ltr;
+}
+#right{
+  direction: rtl;
+  margin: 50px 150px ;
+}
