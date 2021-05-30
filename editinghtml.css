@@ -1,7 +1,14 @@
-body{
-  background-image: linear-gradient(to right, #2ec1f0, #00dae8, #00edb9, #80f871, #f0f50d);
+body {
+  background-image: linear-gradient(
+    to right,
+    #2ec1f0,
+    #00dae8,
+    #00edb9,
+    #80f871,
+    #f0f50d
+  );
 }
-#container{
+#container {
   margin: 170px auto;
   width: 450px;
   height: 340px;
@@ -12,17 +19,17 @@ body{
   background: transparent;
   box-shadow: 0 0 50px rgba(245, 40, 40, 0.767);
 }
-#log{
+#log {
   margin: auto;
-  width: 160px;
+  width: 175px;
   font-size: 50px;
-  font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
- #email {
+#email {
   width: 270px;
   margin: auto;
 }
-#t1{
+#t1 {
   margin: 15px auto;
   width: 250px;
   height: 30px;
@@ -31,17 +38,17 @@ body{
   outline: none;
   font-size: 19px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: transparent;
 }
-#pass{
+#pass {
   width: 270px;
   margin: auto;
 }
-p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#t2{
+#t2 {
   margin: 15px auto;
   width: 250px;
   height: 30px;
@@ -50,22 +57,22 @@ p{
   outline: none;
   font-size: 16px;
   text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: transparent;
 }
-#btn{
+#btn {
   margin: 40px auto;
   width: 180px;
 }
-button{
+button {
   width: 150px;
   height: 40px;
   border: 1px solid green;
   border-radius: 50px;
   background-color: rgb(80, 228, 92);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-button:hover{
+button:hover {
   cursor: pointer;
   background-color: rgb(11, 201, 11);
   color: azure;
