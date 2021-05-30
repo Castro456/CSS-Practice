@@ -73,10 +73,11 @@ button {
   background-color: #4ecab6;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: azure;
+  font-weight: 600;
 }
 button:hover {
   cursor: pointer;
-  background-color: rgb(44, 177, 88);
+  background-color: rgb(50, 177, 92);
   color: azure;
 }
 p:hover {
