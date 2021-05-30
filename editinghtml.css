@@ -1,0 +1,72 @@
+body{
+  background-image: linear-gradient(to right, #2ec1f0, #00dae8, #00edb9, #80f871, #f0f50d);
+}
+#container{
+  margin: 170px auto;
+  width: 450px;
+  height: 340px;
+  border: 1px solid red;
+  border-radius: 50px;
+  border-style: groove;
+  padding: 20px 0px 60px 20px;
+  background: transparent;
+  box-shadow: 0 0 50px rgba(245, 40, 40, 0.767);
+}
+#log{
+  margin: auto;
+  width: 160px;
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+}
+ #email {
+  width: 270px;
+  margin: auto;
+}
+#t1{
+  margin: 15px auto;
+  width: 250px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 50px;
+  outline: none;
+  font-size: 19px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: transparent;
+}
+#pass{
+  width: 270px;
+  margin: auto;
+}
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#t2{
+  margin: 15px auto;
+  width: 250px;
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 50px;
+  outline: none;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: transparent;
+}
+#btn{
+  margin: 40px auto;
+  width: 180px;
+}
+button{
+  width: 150px;
+  height: 40px;
+  border: 1px solid green;
+  border-radius: 50px;
+  background-color: rgb(80, 228, 92);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(11, 201, 11);
+  color: azure;
+}
