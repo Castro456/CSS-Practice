@@ -1,4 +1,5 @@
 @media (min-width: 700px) {
+  /*for comp with mobile if strech is below 700px it comes in one single box*/
   #container {
     display: flex;
     align-items: flex-start;
@@ -12,8 +13,14 @@
     /*puts space between thems*/
   }
 }
+#container3 {
+  display: flex;
+  flex-wrap: wrap;
+  /*warps the content in single box at certain point it push down*/
+}
 #container div,
-#container2 div {
+#container2 div,
+#container3 div {
   border: 1px solid black;
   padding: 10px;
 }
