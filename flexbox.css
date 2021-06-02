@@ -5,8 +5,10 @@
 }
 #container2 {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   /*to justify content*/
+  justify-content: space-between;
+  /*puts space between thems*/
 }
 #container div,
 #container2 div {
